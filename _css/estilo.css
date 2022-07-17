@@ -11,6 +11,10 @@
 @media screen and (max-width:1000px) {
 	.home-right img {
 		margin: 5% auto;
+		visibility: hidden;
+		height: 25px;
+		
+		
 
 	}
 
@@ -46,7 +50,8 @@
 	}
 
 	.about-right h2 {
-		text-align: center
+		text-align: center;
+			
 	}
 
 	.about-right p {
@@ -80,6 +85,22 @@
 	#container-footer {
 		height: "";
 	}
+	
+	.contato-row-5 {
+     
+		margin-bottom: 50px;
+	}
+	.button_enivar{
+    margin-left: 25px;
+	}
+	
+	#container-footer p{
+		text-align: center;
+	}
+	.about-section-title{
+		margin-bottom: -20px;
+	}
+	
 
 }
 
@@ -87,6 +108,7 @@
 @media screen and (min-width:1000px) {
 	.home-right img {
 		margin: 40% auto;
+		
 	}
 
 	div#home {
@@ -128,7 +150,7 @@
 	}
 
 	#section-ptf {
-		height: 100%;
+	
 	}
 
 	#section-contato {
@@ -300,12 +322,12 @@ div#home {
 }
 
 .home-right img {
-
+	filter: drop-shadow(0px 2px 200px);
 	animation: moveToTop 0.7s 1s forwards;
 	opacity: 0;
-	display: block;
-	box-shadow: 20px 50px 5810px 0px black;
-	border-radius: 10px;
+	display: block;	color: rgba(5,24,,.9);
+
+
 }
 
 
@@ -317,7 +339,7 @@ div#sobre {
 
 
 .about-section-title {
-	display: flex;
+	text-align: center;
 	justify-content: center;
 	align-items: center;
 	padding-top: 5%;
@@ -326,6 +348,7 @@ div#sobre {
 	text-transform: uppercase;
 	animation: moveToleft 0.7s 1s forwards;
 	opacity: 0;
+	
 
 }
 
@@ -451,8 +474,7 @@ div#portifolio {
 	color: #f86a78;
 	font-size: 1.5em;
 	pointer-events: none;
-	left: 20%;
-
+	left: 17%;
 
 }
 
@@ -520,9 +542,9 @@ div#portifolio {
 
 .contato-container {
 	width: 100%;
-
 	flex-wrap: wrap;
 	padding-left: 6%;
+	
 }
 
 .contato-left {
@@ -540,6 +562,7 @@ div#portifolio {
 
 .contato-right form {
 	width: 100%;
+ 
 }
 
 .contato-row {
@@ -844,6 +867,7 @@ footer .social-icon {
 }
 
 .about-footer{
+	
 	opacity: 0;
 	animation: moveToTop 0.7s 1s forwards;
 }
